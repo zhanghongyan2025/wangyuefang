@@ -1,0 +1,18 @@
+# Web 自动化测试框架
+playwright~=1.55.0
+
+# Python 测试框架
+pytest~=8.4.0
+
+# 用于生成 HTML 测试报告的 Pytest 插件
+pytest-html~=4.1.1
+
+# Allure 报告集成插件 (新增)
+allure-pytest~=2.13.2
+
+Faker~=37.3.0
+paramiko~=3.5.1
+pytest-instafail~=0.5.0
+
+# MySQL 数据库连接库
+mysql-connector-python~=8.4.0

